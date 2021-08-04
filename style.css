@@ -1840,4 +1840,8 @@ a[title]:hover::after {
       url("https://images.pexels.com/photos/2117938/pexels-photo-2117938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-blend-mode: darken;
   }
+
+  .about-heading {
+    font-size: 80%;
+  }
 }
