@@ -1766,7 +1766,7 @@ a[title]:hover::after {
   margin: 30px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.005);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -1843,5 +1843,8 @@ a[title]:hover::after {
 
   .about-heading {
     font-size: 80%;
+  }
+  .about-intro .card-container .card {
+    background: rgba(255, 255, 255, 0.05);
   }
 }
